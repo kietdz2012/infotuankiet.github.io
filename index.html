@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>🔥 Mua Key HTDD - Tool Tài Xỉu VIP 🔥</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #1a1a2e);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50% }
+      50% { background-position: 100% 50% }
+      100% { background-position: 0% 50% }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 40px;
+    }
+
+    .avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      object-fit: cover;
+      margin: 20px auto;
+    }
+
+    .grid-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      max-width: 700px;
+      margin: 30px auto;
+    }
+
+    .link-button {
+      flex: 1 1 40%;
+      min-width: 220px;
+      padding: 15px 25px;
+      background: linear-gradient(to right, #ff4b2b, #ff416c);
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 50px;
+      box-shadow: 0 4px 12px rgba(255, 65, 108, 0.4);
+      transition: transform 0.2s ease;
+    }
+
+    .link-button:hover {
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin: 40px 0 20px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    /* Nút nhạc */
+    #btnToggleMusic {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      padding: 10px 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 25px;
+      background: #ffffff22;
+      color: white;
+      cursor: pointer;
+      backdrop-filter: blur(4px);
+      box-shadow: 0 2px 8px #00000055;
+      z-index: 999;
+      transition: background 0.3s ease;
+    }
+
+    #btnToggleMusic:hover {
+      background: #ffffff44;
+    }
+
+    /* ❄️ Tuyết rơi */
+    .snowflake {
+      position: fixed;
+      top: -10px;
+      color: white;
+      font-size: 1.5em;
+      user-select: none;
+      z-index: 9999;
+      animation: fall linear infinite;
+    }
+
+    @keyframes fall {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(100vh); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌟 MUA KEY TOOL HTDD - TOOL TÀI XỈU VIP 🌟</h1>
+  <img src="https://inkythuatso.com/uploads/thumbnails/800/2023/01/anh-hacker-ngau-anime-1-13-12-48-53.jpg" alt="Avatar" class="avatar">
+
+  <!-- Nút bật/tắt nhạc -->
+  <button id="btnToggleMusic">🔊 Bật nhạc</button>
+  <audio id="bgMusic" loop>
+    <source src="https://taoanhdep.com/love/music/ccyld.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="grid-links">
+    <a href="https://www.facebook.com/nguyen.tuan.kiet.128560" class="link-button" target="_blank">💬 Facebook Admin</a>
+    <a href="https://www.youtube.com/@kietdevtool123" class="link-button" target="_blank">📺 YouTube Dev</a>
+    <a href="https://t.me/hellokietne21" class="link-button" target="_blank">👤 Telegram Admin</a>
+    <a href="https://t.me/sharetooltxfreevn123" class="link-button" target="_blank">📢 Kênh Thông Báo Tool</a>
+    <a href="https://htdd.site" class="link-button" target="_blank">🌐 Web Tool Chính Thức</a>
+  </div>
+
+  <p class="footer">💎 Mua tool nháy / key Web tool HTDD - Inbox qua các Facebook, Telegram trên của Admin trên 💎</p>
+
+  <!-- ❄️ Script tạo tuyết rơi -->
+  <script>
+    function createSnowflake() {
+      const snowflake = document.createElement('div');
+      snowflake.classList.add('snowflake');
+      snowflake.textContent = '❄️';
+      snowflake.style.left = Math.random() * window.innerWidth + 'px';
+      snowflake.style.animationDuration = (Math.random() * 3 + 2) + 's';
+      snowflake.style.opacity = Math.random();
+      snowflake.style.fontSize = Math.random() * 10 + 10 + 'px';
+      document.body.appendChild(snowflake);
+      setTimeout(() => snowflake.remove(), 5000);
+    }
+    setInterval(createSnowflake, 200);
+  </script>
+
+  <!-- Xử lý bật/tắt nhạc -->
+  <script>
+    const music = document.getElementById("bgMusic");
+    const btn = document.getElementById("btnToggleMusic");
+    let isPlaying = false;
+
+    btn.addEventListener("click", () => {
+      if (isPlaying) {
+        music.pause();
+        btn.textContent = "🔊 Bật nhạc";
+      } else {
+        music.play();
+        btn.textContent = "🔇 Tắt nhạc";
+      }
+      isPlaying = !isPlaying;
+    });
+  </script>
+
+</body>
+</html>
